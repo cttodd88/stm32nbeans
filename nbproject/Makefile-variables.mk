@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux-x86
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux-x86
-CND_ARTIFACT_NAME_Debug=led4
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux-x86/led4
+CND_ARTIFACT_NAME_Debug=stm32nbeans
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux-x86/stm32nbeans
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Debug=led4.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/led4.tar
+CND_PACKAGE_NAME_Debug=stm32nbeans.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/stm32nbeans.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux-x86
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux-x86
-CND_ARTIFACT_NAME_Release=led4
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/led4
+CND_ARTIFACT_NAME_Release=stm32nbeans
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/stm32nbeans
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Release=led4.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/led4.tar
+CND_PACKAGE_NAME_Release=stm32nbeans.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/stm32nbeans.tar
 #
 # include compiler specific variables
 #

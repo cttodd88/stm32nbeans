@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=led4
+PROJECTNAME=stm32nbeans
 
 # Active Configuration
 DEFAULTCONF=Debug

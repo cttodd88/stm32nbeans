@@ -61,11 +61,11 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/led4
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/stm32nbeans
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/led4: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/stm32nbeans: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/led4 ${OBJECTFILES} ${LDLIBSOPTIONS} -mcpu=cortex-m4 -mthumb -g -nostartfiles -DSTM32F407VG -DSTM32F4XX -TSTM32F407VG_FLASH.ld -Wl,--gc-sections -g -o main.elf && arm-none-eabi-objcopy -Oihex main.elf main.hex
+	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/stm32nbeans ${OBJECTFILES} ${LDLIBSOPTIONS} -mcpu=cortex-m4 -mthumb -g -nostartfiles -DSTM32F407VG -DSTM32F4XX -TSTM32F407VG_FLASH.ld -Wl,--gc-sections -g -o main.elf && arm-none-eabi-objcopy -Oihex main.elf main.hex
 
 ${OBJECTDIR}/cmsis_boot/startup/startup_stm32f4xx.o: cmsis_boot/startup/startup_stm32f4xx.c 
 	${MKDIR} -p ${OBJECTDIR}/cmsis_boot/startup
@@ -103,7 +103,7 @@ ${OBJECTDIR}/main.o: main.c
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/led4
+	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/stm32nbeans
 
 # Subprojects
 .clean-subprojects:
